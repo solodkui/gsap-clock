@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="uk">
+<head>
+	<!-- Мета теги -->
+		<meta charset="utf-8">
+		<meta name="description" content="Clock on GSAP">
+		<meta name="keywords" content="GSAP-Clock">
+		<meta name="author" content="Solodkui Arthur solodkuiA@gmail.com">
+
+	<!-- Заголовок сторінки -->
+		<title>GSAP Clock</title>
+		
+	<!-- Підключення іконки -->
+		<link rel="shortcut icon" href="img/gsap-clock.ico" type="image/x-icon">
+
+	<!-- Підключення стилів -->
+		<link rel="stylesheet" href="style/style.css">
+
+	<!-- Підключення бібілотеки для IE менше 9 версії -->
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![end if]-->
+</head>
+<body>
+	
+	<!-- Годинник -->
+	<div id="clock">
+		<div id="clock__wrapper">
+			<div class="line" id="clock__line-hours"></div>
+			<div class="line" id="clock__line-minutes"></div>
+			<div class="line" id="clock__line-seconds"></div>
+			<div id="circle"></div>
+		</div>
+		<img class="season" id="season1" src="img/winter.svg" alt="season">
+		<img class="season" id="season2" src="img/winter.svg" alt="season">
+		<img class="season" id="season3" src="img/winter.svg" alt="season">
+		<img class="season" id="season4" src="img/winter.svg" alt="season">
+	</div>
+	<h1 id="gsap-text">
+		<span id="gsap">GSAP</span> - Clock
+	</h1>
+
+	<!-- Підключення Скріптів -->
+	<script type="text/javascript" src="js/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/TimelineMax.min.js"></script>
+	<script type="text/javascript" src="js/EasePack.min.js"></script>
+	<script type="text/javascript" src="js/CSSPlugin.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

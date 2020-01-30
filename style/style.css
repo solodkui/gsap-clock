@@ -1,0 +1,75 @@
+body{
+	background-color: silver;
+}
+
+h1{
+	text-align: center;
+	margin-top: 50px;
+}
+
+#gsap{
+	color: #88CE02;
+	text-shadow: 2px 2px 2px black;
+}
+
+
+/*Стилі для годинника*/
+#clock{
+	width: 380px;
+	height: 380px;
+	padding: 40px;
+	margin: auto;
+	border-radius: 50%;
+}
+
+#clock__wrapper{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: 2px solid black;
+	border-radius: 50%;
+	background: url(../img/clock.png) no-repeat center center;
+}
+
+.line{
+	position: absolute;
+	left: 50%;
+	transform-origin: left;
+	background-color: black;
+}
+
+#clock__line-hours{
+	width: 20%;
+	height: 7px;
+	top: calc(50% - 3.5px);
+}
+
+#clock__line-minutes{
+	width: 30%;
+	height: 3px;
+	top: calc(50% - 1.5px);
+}
+
+#clock__line-seconds{
+	width: 40%;
+	height: 2px;
+	top: calc(50% - 1px);
+}
+
+#circle{
+	position: absolute;
+	left: calc(50% - 20px);
+	top: calc(50% - 20px);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid black;
+}
+
+.season{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 15px;
+	left: calc(50% - 15px);
+}
